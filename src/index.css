@@ -12,3 +12,9 @@ body{
 .background{
   background: rgb(255, 255, 255);
 }
+.header{
+  text-align: center;
+}
+.homepage{
+  height: 80vh;
+}

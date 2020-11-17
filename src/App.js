@@ -6,7 +6,9 @@ import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import StudentFrom from './components/StudentFrom';
 import TeacherForm from './components/TeacherForm';
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
+import StudentGoogleForm from './components/StudentGoogleForm';
+import TeacherGoogleFrom from './components/TeacherGoogleForm'
 function App() {
   return (
     <div className="background">
@@ -16,8 +18,8 @@ function App() {
           <Navigation />
           <Switch>
             <Route path='/' component={HomePage} exact/>
-            <Route path= '/teacher' component={TeacherForm} exact/>
-            <Route path='/student' component={StudentFrom} />
+            <Route path= '/teacher' component={TeacherGoogleFrom} exact/>
+            <Route path='/student' component={StudentGoogleForm} />
             
           </Switch>
           <Footer />

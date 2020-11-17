@@ -17,13 +17,14 @@ render() {
         
         <MDBNavbar color="default-color" dark expand="md">
             <MDBNavbarBrand>
-                <strong className="white-text">SITE</strong>
+                <strong className="white-text">HomeGuru</strong>
             </MDBNavbarBrand>
             <MDBNavbarToggler onClick={this.toggleCollapse} />
             <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
                 <MDBNavbarNav left>
                     <MDBNavItem active>
                         <MDBNavLink to="/">Home</MDBNavLink>
+                        
                     </MDBNavItem>
                     <MDBNavItem>
                         <MDBDropdown>
